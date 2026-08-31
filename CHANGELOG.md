@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.13](https://github.com/AlexsJones/llmfit/compare/v1.1.12...v1.1.13) (2026-08-31)
+
+
+### Features
+
+* hardware profiles, MoE Tier-2 fixes, and estimate confidence ([#969](https://github.com/AlexsJones/llmfit/issues/969)) ([#971](https://github.com/AlexsJones/llmfit/issues/971)) ([a8a1a93](https://github.com/AlexsJones/llmfit/commit/a8a1a93f7f742295ca98cb865a8671687c6cd6e2))
+
+
+### Bug Fixes
+
+* **cli:** return JSON errors for missing models ([#966](https://github.com/AlexsJones/llmfit/issues/966)) ([1a147ed](https://github.com/AlexsJones/llmfit/commit/1a147ed26e413d8c299282ef18acf50a2d173982))
+* **models:** keep architecture metadata when config.json fetch misses ([#963](https://github.com/AlexsJones/llmfit/issues/963)) ([ec652ba](https://github.com/AlexsJones/llmfit/commit/ec652ba1c32c5092cbbc0b6b1bb63fcdbe9ee90d))
+* **plan:** honor hardware profile bandwidth ([f9d8e48](https://github.com/AlexsJones/llmfit/commit/f9d8e48d08ede41618e7901cbcd89787fc428e56))
+* **providers:** unify the two MLX quant-suffix strippers ([#895](https://github.com/AlexsJones/llmfit/issues/895)) ([02c2fa5](https://github.com/AlexsJones/llmfit/commit/02c2fa56691883320ac812a9f0c9975c6c955fc1)), closes [#869](https://github.com/AlexsJones/llmfit/issues/869)
+* **quality:** disable Ollama thinking for benchmarks ([#975](https://github.com/AlexsJones/llmfit/issues/975)) ([eb11c9e](https://github.com/AlexsJones/llmfit/commit/eb11c9e366e00b4c65c4dad04cdd729cd1bd6839))
+* **quality:** preserve benchmark regex escapes ([#967](https://github.com/AlexsJones/llmfit/issues/967)) ([4f8b489](https://github.com/AlexsJones/llmfit/commit/4f8b48978bf5094a085aaf8dc99fee5901707d02))
+* **share:** explain a refused write to the user's own fork ([#865](https://github.com/AlexsJones/llmfit/issues/865)) ([d6bfa10](https://github.com/AlexsJones/llmfit/commit/d6bfa1094f6e1cc83749c408ec5c490c9935d709)), closes [#862](https://github.com/AlexsJones/llmfit/issues/862)
+
 ## [1.1.12](https://github.com/AlexsJones/llmfit/compare/v1.1.11...v1.1.12) (2026-08-27)
 
 
